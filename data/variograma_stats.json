@@ -1,0 +1,13 @@
+{
+  "rmse_oof_gpboost": 0.5933443605085382,
+  "rmse_oof_l2boost": 0.6758281711899651,
+  "gamma_y_mean": 2.9351429535903826,
+  "gamma_resid_F_only_mean": 0.43597012003297353,
+  "gamma_resid_gpb_mean": 0.3558863999569799,
+  "gamma_resid_l2_mean": 0.43932277703156863,
+  "reduccion_estructura_gpboost_pct": 87.87498920549524,
+  "reduccion_estructura_l2boost_pct": 85.03232094729248,
+  "nugget_teorico": 0.1,
+  "cercania_al_nugget_gpb": 3.558863999569799,
+  "cercania_al_nugget_l2": 4.393227770315686
+}

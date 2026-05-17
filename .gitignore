@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+*.egg-info/
+.pytest_cache/
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Datos crudos pesados (no versionar; descargar/regenerar)
+data/raw/
+*.zip
+*.tar.gz
+
+# Modelos pesados (se versionan los livianos JSON)
+modelos/*.pkl.large
+
+# IDE
+.vscode/
+.idea/
+
+# LaTeX si se usa
+*.aux *.log *.out *.toc

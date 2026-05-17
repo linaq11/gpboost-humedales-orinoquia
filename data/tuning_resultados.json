@@ -1,0 +1,58 @@
+{
+  "decision_final": "Modelo final = defaults del artículo (Notebook 01). Notebook 02 se conserva para documentar el gap CV-test como hallazgo metodológico.",
+  "modelo_final": {
+    "fuente": "Notebook 01 — defaults Sigrist 2021",
+    "params": {
+      "learning_rate": 0.01,
+      "max_depth": 3,
+      "min_data_in_leaf": 10,
+      "num_leaves": 1024,
+      "num_boost_round": 247
+    },
+    "RMSE_test": 0.6073,
+    "archivo": "modelos/gpboost_basico.json"
+  },
+  "tuning_documentado_pero_descartado": {
+    "razon": "Tres grids (8, 12 y 36 combinaciones) eligen consistentemente params (lr=0.10) que mejoran CV pero empeoran test. Es evidencia del gap CV-test por autocorrelación espacial, no error del procedimiento.",
+    "grids_probados": [
+      {
+        "combinaciones": 8,
+        "nfold": 3,
+        "best_params": {
+          "lr": 0.1,
+          "depth": 10,
+          "mindata": 10
+        },
+        "RMSE_test": 0.6816
+      },
+      {
+        "combinaciones": 12,
+        "nfold": 4,
+        "best_params": {
+          "lr": 0.1,
+          "depth": 1,
+          "mindata": 10
+        },
+        "RMSE_test": 0.6706
+      },
+      {
+        "combinaciones": 36,
+        "nfold": 3,
+        "best_params": {
+          "lr": 0.1,
+          "depth": 1,
+          "mindata": 1
+        },
+        "RMSE_test": 0.6619
+      }
+    ],
+    "observacion": "Gap CV-RMSE (0.32-0.43) vs Test-RMSE (0.66-0.68) = ~0.30 unidades. La CV aleatoria sobre datos espaciales sobreestima sistemáticamente el desempeño."
+  },
+  "normalizacion_0_1": {
+    "aplicada": true,
+    "scaler": "sklearn MinMaxScaler",
+    "archivo_scalers": "modelos/scalers_minmax.json",
+    "nota": "X y coordenadas ya estaban en [0,1] por construcción de la simulación. La normalización explícita queda documentada para reproducibilidad y como flujo estándar a aplicar sobre datos reales (Bita)."
+  },
+  "siguiente_paso": "Notebook 04 (CV espacial vs aleatoria) demostrará que la CV espacial por bloques sí está alineada con el RMSE de test, justificando metodológicamente el problema observado."
+}

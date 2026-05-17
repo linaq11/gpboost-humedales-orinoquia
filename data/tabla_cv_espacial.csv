@@ -1,0 +1,3 @@
+esquema,n_folds,RMSE_medio,RMSE_sd,gap_vs_test_pct
+CV aleatoria k=4,4,0.5829,0.0357,-4.0117
+CV espacial 2x2 bloques,4,0.7015,0.0598,15.5167

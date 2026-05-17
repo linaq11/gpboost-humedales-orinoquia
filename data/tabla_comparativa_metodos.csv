@@ -1,0 +1,5 @@
+Método,RMSE
+GPBoost (boosting + GP),0.6073
+Linear GP (universal kriging),1.0915
+L2Boost (boosting + coords),0.65
+Random Forest + coords,0.6905
