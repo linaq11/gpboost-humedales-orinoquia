@@ -1,0 +1,39 @@
+{
+  "refe1": {
+    "descripcion": "Biodiversidad en humedales de Hato Corozal (Casanare)",
+    "filas": 352,
+    "usar_para_GPBoost": false,
+    "razon_descarte": "Es taxonomía animal, no clasificación de coberturas"
+  },
+  "refe2": {
+    "descripcion": "Muestreo de campo con tipos de vegetación en Vichada (Bita)",
+    "filas_originales": 112,
+    "filas_validas_tras_reparacion": 112,
+    "errores_coord_reparados": 7,
+    "clases_unicas": 21,
+    "usar_para_GPBoost": true,
+    "nota_clases": "Muchas clases con 1-2 pts; reagrupar en 6-8 grandes (Bosque/Sabana/Humedal/Río/Caño/Morichal/Laguna)"
+  },
+  "refe3_orinoco_subset": {
+    "descripcion": "IDEAM nacional, subset Orinoco-Mataven",
+    "filas": 300,
+    "clases": "Humedal Perm. Abierto/Bajo Dosel/Temporal + Potencial Medio/Bajo",
+    "usar_para_GPBoost": true,
+    "nota": "Es donde encajan los \"300 puntos con bosque/sabana\" — son del Vichada/Guainía cerca al Bita"
+  },
+  "refe3_bita_bbox_subset": {
+    "descripcion": "IDEAM nacional, recorte bbox Bita",
+    "filas": 177,
+    "usar_para_GPBoost": true
+  },
+  "zon_hid": {
+    "descripcion": "Polígonos zonas hidrográficas Colombia",
+    "filas": 316,
+    "usar_para_GPBoost": false,
+    "uso": "AOI / contexto"
+  },
+  "FALTA_CRITICO": [
+    "Features Sentinel-2 / S1 / PALSAR / DEM / GEDI extraídas en cada punto",
+    "Sin features predictoras GPBoost no aprende nada"
+  ]
+}

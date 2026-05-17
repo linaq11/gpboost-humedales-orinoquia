@@ -1,0 +1,480 @@
+id_punto,lon,lat,fuente,clase_esquema,clase_original,clase_id,clase_unificada,clase_macro,humedal_binario,confianza_recodificacion,regla_recodificacion
+1,-68.6605,5.84066666667,refe2_campo,biofisico_21,Bosque de rebalse,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,bosque_inundable_ribereno
+2,-68.6751111111,5.84627777778,refe2_campo,biofisico_21,Bosque de galería,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,media,bosque_ribereno
+3,-68.6463333333,5.84791666667,refe2_campo,biofisico_21,Bosque de galería-sabana,4,Potencial medio,humedal_potencial,1,media,mosaico_ribereno_sabana
+4,-68.675,5.84027777778,refe2_campo,biofisico_21,Sabana de bancos,5,Potencial bajo,humedal_potencial,1,media,banco_sabana_probabilidad_baja
+5,-68.6463333333,5.84791666667,refe2_campo,biofisico_21,Bosque de tierra firme,0,No humedal / seco,no_humedal,0,alta,tierra_firme
+6,-68.1543888889,5.88969444444,refe2_campo,biofisico_21,Sabana de bajo,3,Humedal temporal,humedal_temporal,1,alta,bajo_inundable
+7,-68.1571666667,5.88341666667,refe2_campo,biofisico_21,Morichal,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,palmar_humedal
+8,-68.1579166667,5.86016666667,refe2_campo,biofisico_21,Bosque de galería,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,media,bosque_ribereno
+9,-68.1823888889,5.85555555556,refe2_campo,biofisico_21,Morichal,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,palmar_humedal
+10,-68.1808888889,5.85002777778,refe2_campo,biofisico_21,Varillal,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,media,vegetacion_humedal
+11,-68.1598611111,5.85577777778,refe2_campo,biofisico_21,Bosque de rebalse,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,bosque_inundable_ribereno
+12,-68.1381388889,5.8745,refe2_campo,biofisico_21,Sabana asociada a afloramientos rocosos,0,No humedal / seco,no_humedal,0,alta,afloramiento_rocoso_sabana
+13,-68.8631111111,5.79194444444,refe2_campo,biofisico_21,Sabana inundable,3,Humedal temporal,humedal_temporal,1,alta,sabana_inundable
+14,-68.8603888889,5.78980555556,refe2_campo,biofisico_21,Sabana inundable,3,Humedal temporal,humedal_temporal,1,alta,sabana_inundable
+15,-68.86175,5.78777777778,refe2_campo,biofisico_21,Morichal,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,palmar_humedal
+16,-68.783,5.85752777778,refe2_campo,biofisico_21,Bosque inundable,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,bosque_inundable
+17,-68.8571944444,5.80319444444,refe2_campo,biofisico_21,Sabana inundable y rocosa,5,Potencial bajo,humedal_potencial,1,media,mosaico_inundable_rocoso
+18,-68.8254722222,5.79391666667,refe2_campo,biofisico_21,Bosque de galería,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,media,bosque_ribereno
+19,-68.8463888889,5.81572222222,refe2_campo,biofisico_21,Zural y morichal,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,media,mosaico_humedal_vegetado
+20,-68.4734166667,5.74425,refe2_campo,biofisico_21,"Bosque inundable, sabana",4,Potencial medio,humedal_potencial,1,media,mosaico_bosque_sabana_inundable
+21,-68.4786944444,5.73877777778,refe2_campo,biofisico_21,Bosque inundable,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,bosque_inundable
+22,-68.4753333333,5.73461111111,refe2_campo,biofisico_21,Bosque de galería,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,media,bosque_ribereno
+23,-68.4801666667,5.72861111111,refe2_campo,biofisico_21,"Bosque tierra firme, sabana inund. y rocosa",5,Potencial bajo,humedal_potencial,1,media,mosaico_mixto_probabilidad_baja
+24,-68.52125,5.73475,refe2_campo,biofisico_21,Bosque inundable,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,bosque_inundable
+25,-68.6641666667,5.83638888889,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+26,-68.8822222222,5.84833333333,refe2_campo,biofisico_21,Laguna,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+27,-68.7233333333,5.85305555556,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+28,-68.7263888889,5.85027777778,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+29,-68.7197222222,5.85972222222,refe2_campo,biofisico_21,Madrevieja,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+30,-68.6188888889,5.81166666667,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+31,-68.645,5.83305555556,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+32,-68.64,5.83527777778,refe2_campo,biofisico_21,Laguna,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+33,-68.7419444444,5.84277777778,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+34,-68.2222222222,5.80055555556,refe2_campo,biofisico_21,Cañada,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+35,-68.2222222222,5.80055555556,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+36,-68.2091666667,5.81833333333,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+37,-68.21,5.81083333333,refe2_campo,biofisico_21,Laguna,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+38,-68.1611111111,5.85138888889,refe2_campo,biofisico_21,Madrevieja,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+39,-68.1622222222,5.84722222222,refe2_campo,biofisico_21,Madrevieja,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+40,-68.1547222222,5.84666666667,refe2_campo,biofisico_21,Madrevieja,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+41,-68.1636111111,5.87638888889,refe2_campo,biofisico_21,Morichal,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,palmar_humedal
+42,-68.1686111111,5.94194444444,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+43,-68.16,5.94694444444,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+44,-68.1547222222,5.87722222222,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+45,-68.1594444444,5.95638888889,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+46,-68.6643888889,5.83663888889,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+47,-68.6578888889,5.84338888889,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+48,-68.6586444444,5.84210833333,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+49,-68.7232222222,5.84955555556,refe2_campo,biofisico_21,Laguna,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+50,-68.7232222222,5.84955555556,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+51,-68.7233333333,5.83641666667,refe2_campo,biofisico_21,Laguna,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+52,-68.7266111111,5.8505,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+53,-68.7197777778,5.85977777778,refe2_campo,biofisico_21,Madrevieja,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+54,-68.6189166667,5.81183333333,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+55,-68.64525,5.83302777778,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+56,-68.64025,5.83552777778,refe2_campo,biofisico_21,Laguna,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+57,-68.7421666667,5.84288888889,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+58,-68.6545555556,5.84386111111,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+59,-68.6656388889,5.84386111111,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+60,-68.5341388889,5.72897222222,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+61,-68.4266111111,5.75177777778,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+62,-68.3845555556,5.76466666667,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+63,-68.22225,5.80069444444,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+64,-68.22225,5.80069444444,refe2_campo,biofisico_21,Laguna,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+65,-68.22225,5.80069444444,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+66,-68.2091666667,5.81841666667,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+67,-68.2101111111,5.81083333333,refe2_campo,biofisico_21,Laguna,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+68,-68.2090833333,5.81544444444,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+69,-68.2090833333,5.81544444444,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+70,-68.1611388889,5.85161111111,refe2_campo,biofisico_21,Madrevieja,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+71,-68.1623055556,5.84744444444,refe2_campo,biofisico_21,Madrevieja,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+72,-68.1547777778,5.84666666667,refe2_campo,biofisico_21,Madrevieja,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+73,-68.1638611111,5.87661111111,refe2_campo,biofisico_21,Morichal,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,palmar_humedal
+74,-68.1686388889,5.94211111111,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+75,-68.16,5.94711111111,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+76,-68.1548611111,5.87741666667,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+77,-67.6525277778,6.20286111111,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+78,-67.6205,6.17655555556,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+79,-67.6074166667,6.15733333333,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+80,-68.6644166667,5.83663888889,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+81,-68.1733611111,5.85061111111,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+82,-68.1403611111,5.8755,refe2_campo,biofisico_21,Laguna,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+83,-68.1606666667,5.85855555556,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+84,-68.1784722222,5.84947222222,refe2_campo,biofisico_21,Morichal,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,palmar_humedal
+85,-68.1651111111,5.87547222222,refe2_campo,biofisico_21,Madrevieja,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+86,-68.1488333333,5.87636111111,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+87,-68.8563888889,5.7975,refe2_campo,biofisico_21,Sabana inundable,3,Humedal temporal,humedal_temporal,1,alta,sabana_inundable
+88,-68.8794444444,5.795,refe2_campo,biofisico_21,Sabana inundable,3,Humedal temporal,humedal_temporal,1,alta,sabana_inundable
+89,-68.8569444444,5.7975,refe2_campo,biofisico_21,Bosque inundado,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,bosque_inundable
+90,-68.8630555556,5.79111111111,refe2_campo,biofisico_21,Bosque inundado,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,bosque_inundable
+91,-68.9030555556,5.81166666667,refe2_campo,biofisico_21,Bosque inundado,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,bosque_inundable
+92,-68.9055555556,5.81111111111,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+93,-68.8858333333,5.79694444444,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+94,-68.8433333333,5.795,refe2_campo,biofisico_21,Sabana inundable,3,Humedal temporal,humedal_temporal,1,alta,sabana_inundable
+95,-68.8563888889,5.80277777778,refe2_campo,biofisico_21,Morichal,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,palmar_humedal
+96,-68.85,5.77972222222,refe2_campo,biofisico_21,Morichal,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,palmar_humedal
+97,-68.8416666667,5.78027777778,refe2_campo,biofisico_21,Morichal,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,palmar_humedal
+98,-68.8619444444,5.82555555556,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+99,-68.8005555556,5.82222222222,refe2_campo,biofisico_21,Sabana inundable,3,Humedal temporal,humedal_temporal,1,alta,sabana_inundable
+100,-68.7794444444,5.83305555556,refe2_campo,biofisico_21,Sabana inundable,3,Humedal temporal,humedal_temporal,1,alta,sabana_inundable
+101,-68.7877777778,5.83638888889,refe2_campo,biofisico_21,Sabana inundable,3,Humedal temporal,humedal_temporal,1,alta,sabana_inundable
+102,-68.7855555556,5.83,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+103,-68.805,5.81027777778,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+104,-68.4794444444,5.74444444444,refe2_campo,biofisico_21,Sabana inundable,3,Humedal temporal,humedal_temporal,1,alta,sabana_inundable
+105,-68.4722222222,5.745,refe2_campo,biofisico_21,Bosque inundable,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,bosque_inundable
+106,-68.5058333333,5.7275,refe2_campo,biofisico_21,Caño,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+107,-68.5211111111,5.73333333333,refe2_campo,biofisico_21,Morichal,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,palmar_humedal
+108,-68.5147222222,5.72638888889,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+109,-68.4319444444,5.74361111111,refe2_campo,biofisico_21,Morichal,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,palmar_humedal
+110,-68.4266666667,5.75138888889,refe2_campo,biofisico_21,Río,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,agua_superficial_abierta
+111,-68.4563888889,5.74833333333,refe2_campo,biofisico_21,Bosque inundado,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,bosque_inundable
+112,-68.475,5.7425,refe2_campo,biofisico_21,Sabana inundable,3,Humedal temporal,humedal_temporal,1,alta,sabana_inundable
+113,-67.84208505911,4.92312261448,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+114,-67.73868737059,4.02510143139,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+115,-69.62414821394,3.57211929737,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+116,-68.86062366213,3.7069721485,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+117,-68.82849748259,3.68044774282,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+118,-68.05547002758,3.98197145844,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+119,-67.7304393821,4.1012149269,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+120,-68.49009880085,3.84348921242,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+121,-69.87248830238,3.46245717227,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+122,-70.10996911717,3.34510955739,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+123,-68.20488556429,3.96528639795,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+124,-68.85064296276,3.71649130972,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+125,-69.24136045574,3.68268062815,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+126,-68.08048141385,3.98052688545,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+127,-67.83335024383,4.71971095815,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+128,-67.82624861303,4.75514200519,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+129,-68.12022186789,3.97699968336,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+130,-69.23919312464,3.69411229361,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+131,-67.82604000827,4.80903871234,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+132,-67.84328713306,4.65898677285,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+133,-67.82470049859,4.69728213182,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+134,-67.80125446328,4.24697914093,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+135,-67.79680973709,4.22639431942,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+136,-68.81991915044,3.69871854054,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+137,-67.89624151549,3.91547067306,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+138,-68.67408155246,3.77764617277,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+139,-70.11158212093,3.38427655943,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+140,-67.85684127565,3.93454270455,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+141,-69.24024922641,3.70395577963,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+142,-68.51465835288,3.81526535747,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+143,-70.28150935606,3.11162244089,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+144,-68.85640243827,3.72545130061,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+145,-69.11119632216,3.66880168272,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+146,-69.41111893957,3.63307749511,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+147,-70.15859047116,3.27751478327,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+148,-67.85526628151,4.51666628617,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+149,-68.65648342357,3.76496304337,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+150,-69.18278412211,3.64528951944,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+151,-68.51149925969,3.82753824409,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+152,-68.45935612639,3.89623413342,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+153,-69.81991957612,3.55506162319,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+154,-69.6770057661,3.5700482292,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+155,-69.64442151523,3.59838526359,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+156,-68.05002018477,3.99788221566,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+157,-69.83820411607,3.51793249394,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+158,-69.47133778972,3.70297977889,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+159,-68.25884874572,3.97692523261,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+160,-67.88638719409,3.91682083091,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+161,-68.23723720252,3.97210974593,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+162,-70.05907409769,3.34635093175,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+163,-67.78109853877,4.40999313727,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+164,-68.54734838623,3.77162669395,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+165,-69.30363740749,3.66405082798,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+166,-68.22348898027,3.96586517914,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+167,-69.42286022442,3.6446904451,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+168,-68.767031879,3.77503653234,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+169,-68.78119115186,3.73003210367,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+170,-67.80240276654,4.23706624824,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+171,-69.61833005656,3.59358197147,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+172,-68.92271561885,3.68505601815,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Abierto,1,Humedal permanente abierto,agua_abierta_permanente,1,alta,directa_ideam
+173,-68.35919932398,3.87171508271,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+174,-67.80269462318,4.33636496395,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+175,-68.58389402869,3.70652332374,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+176,-68.6239891476,3.68692156655,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+177,-68.1579250049,4.44831848012,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+178,-67.77712453404,3.99256417876,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+179,-67.79104990591,4.05686621064,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+180,-68.09164257299,4.54887075666,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+181,-68.33104672867,4.37580198266,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+182,-67.91542234328,4.53827628138,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+183,-68.35112713874,4.33250068061,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+184,-67.82564964889,4.24512026757,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+185,-68.24480459709,4.05615249925,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+186,-68.55395419415,3.74241901723,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+187,-68.13381848825,4.48344089631,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+188,-68.09905012167,4.48680189685,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+189,-68.07615040592,4.51792922677,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+190,-67.93689131015,4.66642371246,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+191,-68.30222721863,4.36557437616,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+192,-67.80409254378,4.07166172627,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+193,-68.41465938343,4.05577392139,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+194,-68.28946388498,4.37580937166,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+195,-67.9692967523,4.5077375959,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+196,-67.99735504888,4.50739322612,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+197,-67.73340378136,3.99989566882,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+198,-69.42508715755,3.61074307829,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+199,-67.89120606653,3.92802294945,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+200,-67.79438162686,4.10462852996,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+201,-68.35466332926,4.35742487718,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+202,-68.01290964232,4.0172362672,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+203,-68.27369486992,4.38876246266,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+204,-68.54641381858,3.72125530932,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+205,-68.16076340994,3.95877962483,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+206,-69.75403978236,3.64749598331,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+207,-68.46923942108,4.27951772,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+208,-67.77523017374,3.9770779685,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+209,-67.81256358498,4.18596152222,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+210,-68.23363244295,4.4440199738,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+211,-68.55824059581,3.71797641593,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+212,-67.81502352524,4.06250189001,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+213,-68.41046780823,4.31335748527,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+214,-68.09620787342,4.28277294227,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+215,-68.09822703326,4.46582822799,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+216,-67.83968247547,4.05223315472,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+217,-68.19406941878,4.44542296594,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+218,-67.77468377921,4.11315267874,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+219,-68.77499175757,3.68625608158,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+220,-68.90220045819,3.7106803371,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+221,-67.75240634739,4.00147552676,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+222,-70.07569551153,3.41895413882,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+223,-68.3899648397,4.32142105712,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+224,-69.93493710302,3.3828299799,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+225,-68.29117428642,4.25360571805,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+226,-68.78258741052,3.77998925406,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+227,-68.05615274771,4.48145139929,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+228,-68.26419606294,4.4085473692,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+229,-67.85497834503,4.69879149417,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+230,-67.80223003872,4.19182395835,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+231,-67.92453530561,4.41040007032,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+232,-67.79247190495,4.07586025475,refe3_ideam_orinoco,ideam_humedales_5,Humedal Permanente Bajo Dosel,2,Humedal permanente bajo dosel,humedal_vegetado_permanente,1,alta,directa_ideam
+233,-68.13771794371,4.51971447332,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+234,-69.7332757434,3.55990720993,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+235,-68.59836093534,3.78841386773,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+236,-68.75501743121,4.18007057301,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+237,-68.87605642487,3.74798367668,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+238,-68.02417836594,3.98147206996,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+239,-68.75658299904,4.51283224673,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+240,-68.78511565947,4.15509997656,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+241,-68.53854371126,3.89720000634,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+242,-68.47115996591,3.87633477776,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+243,-68.346051299,4.70047934986,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+244,-70.00480979016,3.48419125152,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+245,-69.47853909819,3.62051449091,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+246,-70.14235328162,3.28171412753,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+247,-69.01356207728,3.76097781272,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+248,-68.05391609119,4.69616198358,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+249,-67.80066551461,4.40140752518,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+250,-68.60185113794,4.43478084654,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+251,-68.19819037832,4.47600020278,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+252,-68.13021222502,4.38898149853,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+253,-68.38636729229,4.42990613507,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+254,-68.10531897125,4.50110192723,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+255,-67.91747362731,4.33660367969,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+256,-67.95345203846,4.63181677522,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+257,-68.2172341634,4.67601850629,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+258,-68.05636484822,4.54611816122,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+259,-68.67389223678,3.73951682463,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+260,-70.03271863362,3.47177662311,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+261,-69.03450255816,3.7603664265,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+262,-68.52325760112,3.87051609397,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+263,-67.92257845275,4.02330231566,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+264,-69.44484927491,3.67270146134,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+265,-69.17581924182,3.69996653001,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+266,-68.72767834191,4.09948902647,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+267,-68.14096222404,4.5350359508,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+268,-68.00441079535,4.57423764075,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+269,-69.17834893158,3.68032349115,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+270,-68.52467049548,4.20222140064,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+271,-70.12096152888,3.2649618108,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+272,-68.02513549192,4.59235190465,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+273,-70.04100714139,3.48094988808,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+274,-68.55408191,4.16310247487,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+275,-68.42190771794,4.38779532668,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+276,-67.8576084918,4.48100058401,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+277,-69.02003551929,3.62578820684,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+278,-70.05077755358,3.42371048568,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+279,-68.34518611905,4.43632927629,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+280,-68.20970608028,4.50576368415,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+281,-67.79459376386,4.37956645166,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+282,-69.18659579137,3.71015812202,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+283,-67.86945910317,4.32559036925,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+284,-67.74331904311,4.09373564231,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+285,-68.46887177505,4.31942752097,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+286,-68.58394141092,4.13556603682,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+287,-67.99108025314,4.74646118224,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+288,-69.19858521766,3.75895485906,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+289,-68.34222494972,4.4198204939,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+290,-69.87977165375,3.45923139298,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+291,-68.37087778387,4.38117198802,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+292,-67.83831749454,3.9796237353,refe3_ideam_orinoco,ideam_humedales_5,Humedal Temporal,3,Humedal temporal,humedal_temporal,1,alta,directa_ideam
+293,-67.91918732638,4.09699465022,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+294,-68.08903631136,4.17325044953,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+295,-68.08419783547,4.00328761176,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+296,-68.23558275101,4.01874253139,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+297,-68.36984649616,4.07302806536,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+298,-67.87518131558,4.65079166965,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+299,-68.10952395066,4.1293744509,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+300,-68.07312917526,4.09011008904,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+301,-68.37780736529,4.01736623999,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+302,-68.10112330474,4.01674948023,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+303,-68.28589507625,3.98867816249,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+304,-68.57665388884,3.66064882046,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+305,-67.94349480764,4.07288982098,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+306,-68.03835003661,4.03952295109,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+307,-68.12438593295,4.01108562668,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+308,-68.03178351336,4.15220129512,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+309,-68.00148341495,4.07638160217,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+310,-68.52561578358,4.08394835492,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+311,-68.65060073131,3.67461587504,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+312,-68.26188196443,4.04955635152,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+313,-68.39226091346,4.0521788669,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+314,-68.69114529226,3.66255694917,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+315,-68.24083699983,3.99236829214,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+316,-67.91889223412,4.10613131177,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+317,-68.31166061368,4.04916374048,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+318,-68.2894173582,4.06201343585,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+319,-67.97996009218,4.1175363246,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+320,-68.22193214329,4.08809152829,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+321,-68.09353895373,4.12531971317,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+322,-67.94207768196,4.05048336432,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+323,-68.2112533637,4.05668815159,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+324,-68.07212220929,4.02435171658,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+325,-68.38134359683,4.06005940632,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+326,-68.28103566512,4.00494657024,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+327,-68.23378696214,4.02975479342,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+328,-68.43351559278,4.00886249304,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+329,-68.36245635319,4.01621365395,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+330,-67.87441607655,4.09700706169,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+331,-67.92640965973,4.13739456014,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+332,-68.66645495646,3.67715339402,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+333,-68.20648705059,4.08476450378,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+334,-67.90855022532,4.16796904881,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+335,-68.32976151985,3.99945429278,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+336,-68.14005451903,4.09076846121,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+337,-68.41984294364,3.98930937337,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+338,-67.89676942946,4.08034129261,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+339,-68.24182093076,4.00992045315,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+340,-68.1072696128,4.03862618117,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+341,-67.86938141549,4.13233159284,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+342,-68.04871716744,4.07111685765,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+343,-68.12695219094,4.02010775993,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+344,-68.03701826588,4.16071736079,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+345,-67.97578429645,4.09685495704,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+346,-68.2530189924,3.99850045253,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+347,-68.32434484643,4.07794360251,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+348,-68.13473321022,4.07070644876,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+349,-67.99512009245,4.17406428934,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+350,-67.96880745808,4.17113546953,refe3_ideam_orinoco,ideam_humedales_5,Potencial Medio,4,Potencial medio,humedal_potencial,1,alta,directa_ideam
+351,-68.32009147105,4.05717058008,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+352,-68.33744676084,4.02443109272,refe3_ideam_orinoco,ideam_humedales_5,Potencial Bajo,5,Potencial bajo,humedal_potencial,1,alta,directa_ideam
+353,-67.95928974904,4.4654426772,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+354,-69.8653878863,3.33616574803,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+355,-68.88392074764,3.57541376682,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+356,-68.55577049439,4.42041296251,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+357,-70.39705552911,3.36735899498,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+358,-67.87674223898,4.84154144,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+359,-70.57902107518,3.32835972037,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+360,-69.53541204653,3.48561662539,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+361,-69.97557070317,3.29248503648,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+362,-68.91531647419,4.19011761752,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+363,-68.48380411659,4.63944088316,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+364,-68.96618184638,4.226127543,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+365,-69.08754078542,3.59650048431,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+366,-70.18117401787,3.38310950454,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+367,-67.91669330276,4.18213114163,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+368,-69.49593770175,3.55462554416,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+369,-70.33553125003,3.48963666416,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+370,-68.59692361947,4.49250299869,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+371,-68.34244118033,4.56182383225,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+372,-70.08030684645,3.4828513069,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+373,-68.39799539174,4.44381297796,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+374,-68.86251912196,4.11784183171,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+375,-69.00479346159,3.55685561885,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+376,-68.43177652266,4.62240473229,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+377,-68.88470223947,4.08244278144,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+378,-68.50348030523,4.17259710186,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+379,-68.78962359979,4.03892817584,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+380,-68.42323409524,4.51242405652,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+381,-68.24930379401,4.37386732941,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+382,-70.01589186278,3.26016298361,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+383,-69.22663197871,4.048220794,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+384,-68.15449606681,4.41537974697,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+385,-69.90530933296,3.40467476067,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+386,-68.98183291787,4.30208617227,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+387,-68.01994229077,4.23339496743,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+388,-70.35901537492,3.36517257791,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+389,-67.82164063789,4.37338085637,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+390,-70.3647958607,3.40398063986,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+391,-68.98933814878,4.21864746393,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+392,-69.20189916241,4.06685081524,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+393,-68.21713212636,4.55310248647,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+394,-68.87755554442,4.05093565378,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+395,-69.00707101732,4.17898358591,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+396,-68.86571860602,3.57317598562,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+397,-68.09841171448,4.35921312256,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+398,-68.9544005323,4.288364853,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+399,-69.74758326809,3.32303742519,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+400,-68.23444728172,4.10779396085,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+401,-69.87199823293,3.22416699201,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+402,-70.07441337708,3.50609753231,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+403,-68.91997167663,3.95650920846,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+404,-67.83573497443,4.33658140619,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+405,-70.13236486156,3.54261437321,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+406,-70.56923256618,3.32120907805,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+407,-69.6974439791,3.35220671077,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+408,-68.17837908274,4.26960250801,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+409,-68.44922338633,4.45263216026,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+410,-68.63862176495,4.29056057368,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+411,-68.24778661813,4.60993976406,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+412,-67.86031308447,4.86235145425,refe3_ideam_orinoco,ideam_humedales_5,,0,No humedal / seco,no_humedal,0,media,sin_clase_ideam_asumido_negativo
+413,-68.0155279548,5.98362187905,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+414,-67.9229919684,6.01103443935,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+415,-67.8702312315,5.96380804552,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+416,-67.7702441008,6.03058911804,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+417,-67.7870277709,6.08940900123,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+418,-67.6476910185,6.15348577237,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+419,-67.6543404947,6.17811905939,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+420,-67.6213953624,6.2077394536,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+421,-67.626835843,6.21333105863,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+422,-67.5291539923,6.18245154861,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+423,-67.5326402329,6.18538316003,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+424,-67.5256281353,6.18498699633,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+425,-67.5227757566,6.18661126752,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+426,-67.5181406413,6.17611292933,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+427,-67.5222211274,6.17599408022,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+428,-67.525707368,6.17702410586,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+429,-68.1055721832,4.53702521597,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+430,-68.7209588003,4.51361611929,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+431,-68.699196878,4.53112237676,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+432,-68.6862364443,4.56129890898,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+433,-68.723612168,4.62629753934,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+434,-67.9338835554,4.79203266518,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+435,-67.8875808204,5.01884923966,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+436,-68.260176141,5.89699382459,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+437,-68.3451369538,5.90153371536,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+438,-68.38145608,5.87721287198,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+439,-68.3918329731,5.83700241092,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+440,-68.4310706005,5.82565268401,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+441,-68.4336648237,5.85127063904,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+442,-68.2455836349,5.86229608804,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+443,-68.190132112,5.88985971053,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+444,-68.1888350004,5.92358461335,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+445,-68.205048896,5.94109562059,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+446,-68.1602985442,5.99038586317,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+447,-68.1713239932,5.99622286558,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+448,-68.3088178277,5.957958072,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+449,-68.5487834824,5.85321630651,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+450,-68.6392570198,5.80781739887,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+451,-68.7060582696,5.90412793865,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+452,-68.7773994102,5.92682739247,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+453,-68.8153399259,5.93234011697,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+454,-68.9979083902,5.81235728963,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+455,-69.2388468786,5.79127922537,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+456,-69.2362526553,5.82143707116,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+457,-69.3043510167,5.84867641575,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+458,-69.3260776368,5.86586314507,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+459,-69.3679094874,5.73615198038,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+460,-69.4084442264,5.75269015388,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+461,-69.4441147967,5.72220803018,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+462,-69.4450876304,5.75074448641,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+463,-69.3623967629,5.60481942613,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+464,-69.4570859132,5.62849171369,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+465,-69.4415205734,5.64697555466,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+466,-69.7071041831,5.61616915304,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+467,-69.7907678843,5.62168187754,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+468,-69.9240461061,5.6067650936,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+469,-69.9256674956,5.66124378277,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+470,-69.9593923984,5.69496868559,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+471,-69.9081564884,5.72739647676,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+472,-69.8880512578,5.71118258118,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+473,-69.8731344739,5.71507391612,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+474,-69.7988748321,5.72512653138,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+475,-69.6221433702,5.72609936512,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+476,-69.623116204,5.75496009926,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+477,-69.5974982489,5.77409249605,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+478,-69.5602062891,5.75301443179,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
+479,-69.5336155003,5.73420631291,nohum_manual,nohum_manual,No humedal,0,No humedal / seco,no_humedal,0,alta,puntos_no_humedal_agregados_manualmente
