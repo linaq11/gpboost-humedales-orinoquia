@@ -1,6 +1,6 @@
 # Reproducción y extensión del algoritmo GPBoost para datos espaciales
 
-**Autores:** Lina Quintero, Santiago Rodríguez
+**Autores:** Lina María Quintero Fonseca (lquinterof@unal.edu.co), Santiago Rodríguez Basabe (sanrodriguezba@unal.edu.co)
 **Curso:** Percepción Remota, Maestría en Geomática, Universidad Nacional de Colombia
 **Fecha:** 20 de mayo de 2026
 
@@ -186,6 +186,25 @@ GPBoost obtiene mejor accuracy, kappa y F1, en tanto que Random Forest gana en b
 ![Figura 10. Distribución espacial de predicciones GPBoost sobre el test set del Bita.](../figuras/fig10_bita_mapa.png)
 
 ---
+
+### 4.6.2. Extensión multiclase mediante el esquema One-vs-Rest
+
+Por consideraciones de soporte numérico actual de la biblioteca `gpboost` —cuyo objetivo `multiclass` no admite todavía la combinación simultánea con `gp_model`— se adopta el esquema *one-vs-rest*: cinco clasificadores binarios GPBoost independientes, uno por cada categoría de `clase_macro`, donde la predicción final se obtiene tomando el `argmax` de las cinco probabilidades posteriores. Esta descomposición preserva el modelado explícito de la dependencia espacial mediante un proceso gaussiano por clase, lo cual constituye la principal ventaja metodológica del enfoque frente a la alternativa heurística de tratar las coordenadas como features ordinarias en un clasificador multiclase nativo. La Tabla 7 reporta el desempeño sobre el mismo conjunto de test estratificado del veinticinco por ciento utilizado en la sección anterior.
+
+**Tabla 7.** Desempeño en clasificación multiclase de cinco categorías de humedal sobre la cuenca del Bita ($n_{\text{test}} = 120$).
+
+| Métrica | GPBoost OvR (5 binarios + GP) | Random Forest multiclase + coordenadas |
+|---|---|---|
+| Accuracy | 0,750 | **0,758** |
+| Balanced accuracy | **0,728** | 0,712 |
+| Cohen kappa | 0,680 | **0,688** |
+| F1 macro | **0,718** | 0,706 |
+
+El balance entre los dos métodos resulta técnicamente equilibrado: Random Forest gana por márgenes inferiores a un punto porcentual en accuracy y kappa, mientras que GPBoost OvR alcanza una balanced accuracy y un F1 macro superiores —$0{,}728$ frente a $0{,}712$ y $0{,}718$ frente a $0{,}706$, respectivamente—. La ventaja de GPBoost OvR en métricas balanceadas resulta operativamente relevante, en la medida en que estas métricas penalizan de forma simétrica el desempeño sobre clases minoritarias, lo cual sugiere que el componente espacial gaussiano contribuye sobre todo a estabilizar la clasificación de categorías con menos representación. La clase `humedal_temporal` resulta la más difícil para ambos clasificadores —F1 = $0{,}40$ en GPBoost OvR, recall = $0{,}33$— y se confunde sistemáticamente con `humedal_vegetado_permanente` y `humedal_potencial`, lo cual refleja la dificultad ecológica intrínseca de discriminar humedales temporales sobre imágenes de un único año cuando la dinámica de inundación es interanual. Las clases con marcadores espectrales y radiométricos claros —agua abierta permanente y humedal potencial— alcanzan F1 cercano o superior a $0{,}83$ en GPBoost OvR. La Figura 12 presenta las matrices de confusión de cinco por cinco para los dos clasificadores.
+
+![Figura 12. Matrices de confusión 5x5 GPBoost OvR y Random Forest multiclase sobre el test set del Bita.](../figuras/fig12_bita_confusion_multiclase.png)
+
+El balance técnico entre OvR y Random Forest sobre la clasificación multiclase fina admite dos lecturas concurrentes. En primer lugar, GPBoost OvR estima cinco procesos gaussianos independientes con parámetros propios $\hat\sigma^2_{GP}$ y $\hat\rho$ a partir de submuestras desbalanceadas —cada clase contra el resto—, lo cual le otorga la ventaja en métricas balanceadas pero le exige más información para cada GP individual. En segundo lugar, Random Forest agrega quinientos árboles sobre todas las clases simultáneamente, lo cual le da una ligera ventaja en accuracy global cuando la separabilidad espectral entre clases ya es alta. La consecuencia operativa es que, para clasificación fina de humedales con dieciocho features de teledetección, ambos métodos son técnicamente equivalentes, con GPBoost OvR como la elección preferible cuando se prioriza el desempeño en clases minoritarias y la cuantificación de incertidumbre por píxel via varianza posterior del GP. Una extensión natural —que queda para trabajo futuro— sería refactorizar el problema como una cascada jerárquica humedal/no-humedal seguida de un clasificador multiclase entre los tipos de humedal, lo cual permitiría aprovechar la fortaleza del GP en el primer corte (Tabla 6 reporta kappa $0{,}840$ en binario) y un clasificador no espacial en el segundo.
 
 ## 5. Discusión
 

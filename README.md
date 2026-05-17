@@ -9,7 +9,7 @@ Configuración rápida para Santiago / Colab: ver [COLAB_SETUP.md](COLAB_SETUP.m
 Reproducción y extensión del ejemplo del artículo *Tree-Boosting for Spatial Data* de Fabio Sigrist (TDS Archive, 2021) y aplicación del algoritmo GPBoost a la clasificación de humedales en la Orinoquía colombiana.
 
 **Curso:** Percepción Remota, Maestría en Geomática, Universidad Nacional de Colombia
-**Autores:** Lina Quintero , Santiago Rodríguez 
+**Autores:** Lina María Quintero Fonseca, Santiago Rodríguez Basabe
 **Fecha de entrega:** 20 de mayo de 2026
 
 ---
@@ -88,12 +88,12 @@ Cada notebook es autocontenido y carga los datos derivados que necesita desde `d
 ## Datos
 
 - **Datos simulados (Fase 1):** generados según las ecuaciones del Apéndice del artículo Sigrist 2021. Semilla `1`. Reproducibles ejecutando el notebook 01.
-- **Datos de humedales Bita (Fase 2):** subset preparado por Santiago Rodríguez a partir de imágenes Sentinel-2, Sentinel-1, ALOS PALSAR, Copernicus DEM y GEDI sobre la cuenca del río Bita (Orinoquía colombiana). Los datos crudos no se redistribuyen en este repositorio por su tamaño; los CSV procesados con features y etiquetas sí están incluidos en `data/`.
+- **Datos de humedales Bita (Fase 2):** subset preparado por Santiago Rodríguez Basabe a partir de imágenes Sentinel-2, Sentinel-1, ALOS PALSAR, Copernicus DEM y GEDI sobre la cuenca del río Bita (Orinoquía colombiana). Los datos crudos no se redistribuyen en este repositorio por su tamaño; los CSV procesados con features y etiquetas sí están incluidos en `data/`.
 
 ## Cómo citar este trabajo
 
 ```
-Quintero, L. & Rodríguez, S. (2026). Reproducción y extensión del
+Quintero Fonseca, L. M. & Rodríguez Basabe, S. (2026). Reproducción y extensión del
 algoritmo GPBoost para datos espaciales: aplicación a la clasificación de
 humedales en la Orinoquía colombiana. Examen 2, curso de Percepción Remota,
 Maestría en Geomática, Universidad Nacional de Colombia.
@@ -115,5 +115,5 @@ Maestría en Geomática, Universidad Nacional de Colombia.
 
 ## Contacto
 
-Lina Quintero — lquinterof@unal.edu.com
-Santiago Rodríguez  — [correo del compañero]
+Lina María Quintero Fonseca — lquinterof@unal.edu.co
+Santiago Rodríguez Basabe — sanrodriguezba@unal.edu.co
