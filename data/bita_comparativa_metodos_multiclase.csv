@@ -1,0 +1,3 @@
+Método,Accuracy,Balanced acc,Kappa,F1 macro
+GPBoost OvR (5 binarios + GP),0.725,0.704,0.648,0.686
+Random Forest + coords,0.75,0.703,0.677,0.698
