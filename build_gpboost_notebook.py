@@ -26,7 +26,7 @@ def code(s): cells.append(nbf.v4.new_code_cell(s))
 md("""# Examen 2 — Reproducción y extensión de GPBoost
 
 **Curso:** Percepción Remota, Maestría en Geomática, Universidad Nacional de Colombia
-**Autoras:** Lina Quintero Mejía + [compañero de grupo]
+**Autores:** Lina Quintero, Santiago Rodríguez
 **Fecha:** Mayo 2026
 
 ---
