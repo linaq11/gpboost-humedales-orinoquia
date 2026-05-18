@@ -87,6 +87,7 @@ Cada notebook es autocontenido y carga los datos derivados que necesita desde `d
 ## Datos
 
 - **Datos simulados (Fase 1):** generados según las ecuaciones del Apéndice del artículo Sigrist 2021. Semilla `1`. Reproducibles ejecutando el notebook 01.
+- **Datos de humedales Bita (Fase 2):** 479 puntos de referencia sobre la cuenca del río Bita y zonas aledañas de la Orinoquía colombiana, combinando muestreo de campo en Vichada con el modelo nacional de humedales del IDEAM. Las 18 variables predictoras (Sentinel-2, Sentinel-1, ALOS PALSAR-2 y Copernicus DEM) se extrajeron mediante Google Earth Engine. Los CSV procesados con features y etiquetas están incluidos en `data/`.
 
 ## Cómo citar este trabajo
 
