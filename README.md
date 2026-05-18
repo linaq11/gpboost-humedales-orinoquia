@@ -4,7 +4,6 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Open Notebook 01 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/linaq11/examen-2-gpboost/blob/main/notebooks/01_reproduccion_simulacion.ipynb)
 
-Configuración rápida para Santiago / Colab: ver [COLAB_SETUP.md](COLAB_SETUP.md).
 
 Reproducción y extensión del ejemplo del artículo *Tree-Boosting for Spatial Data* de Fabio Sigrist (TDS Archive, 2021) y aplicación del algoritmo GPBoost a la clasificación de humedales en la Orinoquía colombiana.
 
@@ -88,7 +87,6 @@ Cada notebook es autocontenido y carga los datos derivados que necesita desde `d
 ## Datos
 
 - **Datos simulados (Fase 1):** generados según las ecuaciones del Apéndice del artículo Sigrist 2021. Semilla `1`. Reproducibles ejecutando el notebook 01.
-- **Datos de humedales Bita (Fase 2):** subset preparado por Santiago Rodríguez Basabe a partir de imágenes Sentinel-2, Sentinel-1, ALOS PALSAR, Copernicus DEM y GEDI sobre la cuenca del río Bita (Orinoquía colombiana). Los datos crudos no se redistribuyen en este repositorio por su tamaño; los CSV procesados con features y etiquetas sí están incluidos en `data/`.
 
 ## Cómo citar este trabajo
 
