@@ -4,11 +4,9 @@
 **Curso:** Percepción Remota, Maestría en Geomática, Universidad Nacional de Colombia
 **Fecha:** 20 de mayo de 2026
 
----
-
 ## Resumen
 
-El algoritmo GPBoost, propuesto por Sigrist (2020), articula tree-boosting con modelos de proceso gaussiano bajo la formulación y = F(X) + b(s) + e, de modo que el componente fijo F(X) aprende relaciones no-lineales entre covariables mientras que el componente aleatorio b(s) modela explícitamente la dependencia espacial entre observaciones. El presente trabajo reproduce el ejemplo simulado del artículo divulgativo de Sigrist (2021) y propone cuatro extensiones que profundizan en el manejo de la dependencia espacial: la normalización de covariables seguida de grid search con validación cruzada, la comparación de cuatro funciones de covarianza, la confrontación entre validación cruzada aleatoria y validación cruzada espacial por bloques, y el análisis del variograma empírico de los residuales como diagnóstico de la captura del componente espacial. Los resultados confirman el desempeño superior de GPBoost respecto a Linear GP, L2Boost y Random Forest sobre la simulación —con un RMSE de 0,6073 frente a 1,0915, 0,6500 y 0,6905 respectivamente—, evidencian que la validación cruzada aleatoria subestima sistemáticamente el RMSE en aproximadamente un 4% al ignorar la autocorrelación espacial, y muestran que el proceso gaussiano captura el 88% de la estructura espacial de los residuales out-of-sample. La contribución metodológica principal es la documentación del gap entre validación cruzada y test, así como la justificación de la validación espacial por bloques como estimador honesto del desempeño predictivo en contextos de monitoreo ambiental. La metodología se aplica posteriormente a la clasificación binaria de humedales sobre 479 puntos de referencia en la cuenca del río Bita y zonas aledañas de la Orinoquía colombiana, con dieciocho features extraídas vía Google Earth Engine, donde GPBoost alcanza una exactitud del 94,2 %, un Cohen kappa de 0,840 y un F1 de 0,962, ratificando la transferibilidad del flujo metodológico a problemas reales de inventario nacional de humedales.
+El algoritmo GPBoost, propuesto por Sigrist (2020), articula tree-boosting con modelos de proceso gaussiano bajo la formulación y = F(X) + b(s) + e, de modo que el componente fijo F(X) aprende relaciones no-lineales entre covariables mientras que el componente aleatorio b(s) modela explícitamente la dependencia espacial entre observaciones. El presente trabajo reproduce el ejemplo simulado del artículo divulgativo de Sigrist (2021) y propone cuatro extensiones que profundizan en el manejo de la dependencia espacial: la normalización de covariables seguida de grid search con validación cruzada, la comparación de cuatro funciones de covarianza, la confrontación entre validación cruzada aleatoria y validación cruzada espacial por bloques, y el análisis del variograma empírico de los residuales como diagnóstico de la captura del componente espacial. Los resultados confirman el desempeño superior de GPBoost respecto a Linear GP, L2Boost y Random Forest sobre la simulación —con un RMSE de 0,6073 frente a 1,0915, 0,6500 y 0,6905 respectivamente—, evidencian que la validación cruzada aleatoria subestima sistemáticamente el RMSE en aproximadamente un 4% al ignorar la autocorrelación espacial, y muestran que el proceso gaussiano captura el 88% de la estructura espacial de los residuales out-of-sample. La contribución metodológica principal es la documentación del gap entre validación cruzada y test, así como la justificación de la validación espacial por bloques como estimador honesto del desempeño predictivo en contextos de monitoreo ambiental. La metodología se aplica posteriormente a la clasificación binaria de humedales sobre 479 puntos de referencia en la cuenca del río Bita y zonas aledañas de la Orinoquía colombiana, con dieciocho features extraídas vía Google Earth Engine, donde GPBoost alcanza una exactitud del 94,2 %, un Cohen kappa de 0,840 y un F1 de 0,962, lo que sugiere la transferibilidad del flujo metodológico a problemas reales de inventario nacional de humedales.
 
 
 ## 1. Introducción
@@ -97,14 +95,14 @@ El Linear GP queda por detrás de los demás métodos porque su componente fijo 
 
 ![Figura 2. Diagnóstico de GPBoost: campo b(s) predicho, varianza posterior, F(x1) y referencia.](../figuras/fig2_predicciones_gpboost.png)
 
-![Figura 3. Comparativa de RMSE entre los cuatro métodos sobre el test grid 50x50.](../figuras/fig3_comparativa_metodos.png)
+![Figura 3. Comparativa de RMSE entre los cuatro métodos sobre el grilla de prueba 50x50.](../figuras/fig3_comparativa_metodos.png)
 
 
 ### 4.2. Normalización 0-1, grid search y el gap CV-test
 
 La grid search con validación cruzada aleatoria de tres pliegues, aplicada sobre tres grillas de tamaño creciente, con 8, 12 y 36 combinaciones, identifica de forma consistente configuraciones con tasa de aprendizaje alta, η = 0,10, y árboles más complejos que los usados por defecto en el artículo. La Tabla 2 resume los resultados de los tres ejercicios de ajuste de hiperparámetros.
 
-**Tabla 2. Gap entre validación cruzada aleatoria y test grid (referencia: defaults RMSE 0,6073).**
+**Tabla 2. Gap entre validación cruzada aleatoria y grilla de prueba (referencia: defaults RMSE 0,6073).**
 
 
 | Grid | mejor-CV RMSE | Test RMSE de ese params | Gap absoluto |
@@ -132,9 +130,7 @@ La relación esperada entre suavidad de la covarianza y RMSE se verifica empíri
 
 El RMSE aumenta de forma monótona con la suavidad de la covarianza, lo que confirma que la función exponencial es la opción más adecuada para campos no diferenciables como el simulado. Las longitudes de escala estimadas ρ̂ son menores que el valor verdadero ρ = 0,1 en todas las covarianzas distintas de la exponencial. Este comportamiento es esperable, ya que las covarianzas más suaves compensan parte de su mayor regularidad con rangos efectivos más cortos. En aplicaciones de percepción remota, esto sugiere que la covarianza exponencial debe preferirse en ecosistemas con transiciones abruptas, como bordes de manglar, frentes de inundación o contactos bosque-sabana en la Orinoquía. La Figura 6 muestra la comparación visual.
 
-.
-
-![Figura 6. RMSE en test grid 50x50 según función de covarianza, ordenado por suavidad creciente.](../figuras/fig6_covarianzas_RMSE.png)
+![Figura 6. RMSE en grilla de prueba 50x50 según función de covarianza, ordenado por suavidad creciente.](../figuras/fig6_covarianzas_RMSE.png)
 
 
 ### 4.4. Validación cruzada espacial por bloques
@@ -175,7 +171,7 @@ De estos resultados se desprenden tres lecturas. Primero, el variograma de y - F
 
 ### 4.6. Aplicación a la clasificación de humedales del Bita
 
-La aplicación del flujo metodológico a 479 puntos de referencia en la cuenca del río Bita y zonas aledañas de la Orinoquía colombiana muestra resultados consistentes con la simulación. Los puntos fueron preparados por el coautor a partir de tres fuentes: muestreo de campo en Vichada (112), modelo nacional de humedales del IDEAM (300) y puntos no humedal añadidos manualmente (67). Las dieciocho variables predictoras se extrajeron en Google Earth Engine para el año 2021, combinando bandas e índices de Sentinel-2 (Drusch et al., 2012), bandas de Sentinel-1 (Torres et al., 2012), bandas L de ALOS PALSAR-2 y variables topográficas del Copernicus DEM. Se eligió 2021 porque la cobertura de Sentinel-1 sobre la cuenca en 2022 era prácticamente nula, asociada al cese operativo de Sentinel-1B en diciembre de 2021. Debido a las limitaciones numéricas del componente espacial gaussiano de GPBoost en objetivos multiclase, el ejercicio se formuló como una clasificación binaria entre humedal y no humedal. La Tabla 6 presenta el desempeño en el conjunto de prueba estratificado del 25 %.
+La aplicación del flujo metodológico a 479 puntos de referencia en la cuenca del río Bita y zonas aledañas de la Orinoquía colombiana muestra resultados consistentes con la simulación. Los puntos fueron preparados a partir de tres fuentes: muestreo de campo en Vichada (112), modelo nacional de humedales del IDEAM (300) y puntos no humedal añadidos manualmente (67). Las dieciocho variables predictoras se extrajeron en Google Earth Engine para el año 2021, combinando bandas e índices de Sentinel-2 (Drusch et al., 2012), bandas de Sentinel-1 (Torres et al., 2012), bandas L de ALOS PALSAR-2 y variables topográficas del Copernicus DEM. Se eligió 2021 porque la cobertura de Sentinel-1 sobre la cuenca en 2022 era prácticamente nula, asociada al cese operativo de Sentinel-1B en diciembre de 2021. Debido a las limitaciones numéricas del componente espacial gaussiano de GPBoost en objetivos multiclase, el ejercicio se formuló como una clasificación binaria entre humedal y no humedal. La Tabla 6 presenta el desempeño en el conjunto de prueba estratificado del 25 %.
 
 **Tabla 6. Desempeño en clasificación binaria humedal versus no-humedal sobre la cuenca del Bita (ntest = 120).**
 
@@ -211,17 +207,13 @@ Por limitaciones numéricas actuales de la biblioteca gpboost, cuyo objetivo mul
 
 El balance entre los dos métodos es técnicamente parejo. Random Forest supera a GPBoost OvR por menos de un punto porcentual en accuracy y kappa, mientras que GPBoost OvR obtiene mejores valores de balanced accuracy y F1 macro. Esta ventaja en métricas balanceadas es relevante porque estas penalizan de forma más simétrica los errores en clases minoritarias, y sugiere que el componente espacial gaussiano ayuda a estabilizar la clasificación de categorías con menor representación.
 
-La clase humedal_temporal es la más difícil para ambos clasificadores, con F1 = 0,40 y recall = 0,33 en GPBoost OvR. Sus principales confusiones se dan con humedal_vegetado_permanente y humedal_potencial, lo que refleja la dificultad de discriminar humedales temporales usando imágenes de un único año, especialmente cuando la dinámica de inundación varía entre años. La Figura 12 presenta las matrices de confusión de 5 × 5 para los dos clasificadores.
-
 Una extensión natural para trabajo futuro sería reformular el problema como una cascada jerárquica: primero una clasificación humedal/no humedal y luego un clasificador multiclase entre tipos de humedal. Esto permitiría aprovechar la fortaleza de GPBoost en el primer corte y usar un clasificador no espacial en la segunda etapa.
 
-![Figura 12. Matrices de confusión 5x5 GPBoost OvR y Random Forest multiclase sobre el test set del Bita.](../figuras/fig12_bita_confusion_multiclase.png)
+![Figura 11. Matrices de confusión 5x5 GPBoost OvR y Random Forest multiclase sobre el test set del Bita.](../figuras/fig12_bita_confusion_multiclase.png)
 
 El balance entre los dos métodos es técnicamente parejo. Random Forest supera a GPBoost OvR por menos de un punto porcentual en accuracy y kappa, mientras que GPBoost OvR obtiene mejores valores de balanced accuracy y F1 macro, con 0,728 frente a 0,712 y 0,718 frente a 0,706, respectivamente. Esta ventaja en métricas balanceadas es relevante porque penalizan de forma más simétrica los errores en clases minoritarias. Esto sugiere que el componente espacial gaussiano contribuye sobre todo a estabilizar la clasificación de categorías con menor representación.
 
 La clase humedal_temporal es la más difícil para ambos clasificadores, con F1 = 0,40 y recall = 0,33 en GPBoost OvR. Sus principales confusiones se dan con humedal_vegetado_permanente y humedal_potencial, lo que refleja la dificultad de discriminar humedales temporales usando imágenes de un único año, especialmente cuando la dinámica de inundación varía entre años. En cambio, las clases con marcadores espectrales y radiométricos más claros, como agua_abierta_permanente y humedal_potencial, alcanzan valores de F1 cercanos o superiores a 0,83 en GPBoost OvR. La Figura 12 presenta las matrices de confusión de 5 × 5 para los dos clasificadores.
-
-El balance técnico entre GPBoost OvR y Random Forest en la clasificación multiclase fina permite dos lecturas. Primero, GPBoost OvR estima cinco procesos gaussianos independientes, cada uno con sus propios parámetros σ̂²GP y ρ̂, a partir de submuestras desbalanceadas, es decir, cada clase contra el resto. Esto le da ventaja en métricas balanceadas, pero también exige más información para ajustar cada proceso gaussiano. Segundo, Random Forest combina 500 árboles y modela todas las clases simultáneamente, lo que le da una ligera ventaja en accuracy global cuando la separabilidad espectral entre clases ya es alta.
 
 En términos operativos, ambos métodos son técnicamente comparables para la clasificación fina de humedales con dieciocho variables de teledetección. GPBoost OvR resulta preferible cuando se prioriza el desempeño en clases minoritarias y la cuantificación de incertidumbre por píxel mediante la varianza posterior del proceso gaussiano. Una extensión natural para trabajo futuro sería reformular el problema como una cascada jerárquica: primero una clasificación humedal/no humedal y luego un clasificador multiclase entre tipos de humedal. Esto permitiría aprovechar la fortaleza del proceso gaussiano en el primer corte, donde el modelo binario alcanza kappa = 0,840 según la Tabla 6, y usar un clasificador no espacial en la segunda etapa
 
@@ -229,7 +221,7 @@ En términos operativos, ambos métodos son técnicamente comparables para la cl
 ## 5. Discusión
 
 
-### 5.1. El gap entre validación cruzada y test como artefacto de la autocorrelación espacial
+### 5.1. El vacío entre validación cruzada y test como artefacto de la autocorrelación espacial
 
 El hallazgo metodológico central del trabajo es la documentación cuantitativa de la brecha entre validación cruzada aleatoria y grilla de prueba cuando los datos presentan autocorrelación espacial. En la simulación de Sigrist (2021), la validación cruzada aleatoria sobreestima el desempeño en aproximadamente 4 %, lo que es consistente con el marco de Meyer y Pebesma (2021) sobre el área de aplicabilidad de los modelos de predicción espacial. La consecuencia es importante: la selección de hiperparámetros guiada por validación cruzada aleatoria puede favorecer configuraciones que se ajustan demasiado a la vecindad espacial de los puntos de entrenamiento. Este sesgo no suele ser evidente sin un conjunto de prueba independiente. En monitoreo ambiental, donde rara vez se dispone de una grilla de prueba densa sobre todo el dominio, esto puede producir mapas con un desempeño aparente mayor al que realmente tendrían al extrapolarse a zonas no muestreadas.
 
@@ -245,7 +237,7 @@ El trabajo deja tres líneas de continuación. La primera es replicar la validac
 
 ## 6. Conclusiones
 
-La reproducción del ejemplo simulado de Sigrist (2021) confirma que GPBoost supera a Linear GP, L2Boost y Random Forest en datos con autocorrelación espacial. Las cuatro extensiones propuestas, normalización con grid search, comparación de funciones de covarianza, validación cruzada espacial por bloques y variograma empírico de residuales, permiten documentar la brecha entre validación cruzada aleatoria y grilla de prueba, justificar el uso de covarianza exponencial en campos rugosos y verificar, desde un diagnóstico geoestadístico, la captura del componente espacial por el proceso gaussiano. La aplicación a la clasificación binaria de humedales sobre 479 puntos de referencia en la cuenca del río Bita traslada el flujo metodológico a un caso real con dieciocho variables derivadas de Sentinel-2, Sentinel-1, ALOS PALSAR-2 y Copernicus DEM. En este caso, GPBoost alcanza un desempeño operativamente útil, con accuracy de 94,2 %, kappa de 0,840 y F1 de 0,962. Estos resultados respaldan la transferibilidad del enfoque y su posible integración en sistemas de monitoreo como el Digital Twin de la Ciénaga Grande de Santa Marta o el inventario nacional de humedales del IDEAM.
+La reproducción del ejemplo simulado de Sigrist (2021) confirma que GPBoost supera a Linear GP, L2Boost y Random Forest en datos con autocorrelación espacial. Las cuatro extensiones propuestas, normalización con grid search, comparación de funciones de covarianza, validación cruzada espacial por bloques y variograma empírico de residuales, permiten documentar la brecha entre validación cruzada aleatoria y grilla de prueba, justificar el uso de covarianza exponencial en campos rugosos y verificar, desde un diagnóstico geoestadístico, la captura del componente espacial por el proceso gaussiano. La aplicación a la clasificación binaria de humedales sobre 479 puntos de referencia en la cuenca del río Bita traslada el flujo metodológico a un caso real con dieciocho variables derivadas de Sentinel-2, Sentinel-1, ALOS PALSAR-2 y Copernicus DEM. En este caso, GPBoost alcanza un desempeño operativamente útil, con accuracy de 94,2 %, kappa de 0,840 y F1 de 0,962. Estos resultados respaldan la transferibilidad del enfoque y su posible integración en sistemas de monitoreo como el Digital Twin de la Ciénaga Grande de Santa Marta o el inventario nacional de humedales del IDEAM (proyectos de tesis individuales).
 
 
 ## Referencias
@@ -260,7 +252,7 @@ Meyer, H., y Pebesma, E. (2021). Predicting into unknown space? Estimating the a
 
 Sigrist, F. (2020). Gaussian Process Boosting [Preprint]. arXiv:2004.02653.
 
-Sigrist, F. (2021). Tree-boosting for spatial data: GPBoost — combining tree-boosting and Gaussian process models. *TDS Archive Mediu
+Sigrist, F. (2021). Tree-boosting for spatial data: GPBoost — combining tree-boosting and Gaussian process models. *TDS Archive Medium
 
 Tobler, W. R. (1970). A computer movie simulating urban growth in the Detroit region. *Economic Geography*, *46*(sup1), 234–240.
 
