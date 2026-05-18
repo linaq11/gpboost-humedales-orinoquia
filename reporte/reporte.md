@@ -240,6 +240,10 @@ El trabajo deja tres líneas de continuación. La primera es replicar la validac
 La reproducción del ejemplo simulado de Sigrist (2021) confirma que GPBoost supera a Linear GP, L2Boost y Random Forest en datos con autocorrelación espacial. Las cuatro extensiones propuestas, normalización con grid search, comparación de funciones de covarianza, validación cruzada espacial por bloques y variograma empírico de residuales, permiten documentar la brecha entre validación cruzada aleatoria y grilla de prueba, justificar el uso de covarianza exponencial en campos rugosos y verificar, desde un diagnóstico geoestadístico, la captura del componente espacial por el proceso gaussiano. La aplicación a la clasificación binaria de humedales sobre 479 puntos de referencia en la cuenca del río Bita traslada el flujo metodológico a un caso real con dieciocho variables derivadas de Sentinel-2, Sentinel-1, ALOS PALSAR-2 y Copernicus DEM. En este caso, GPBoost alcanza un desempeño operativamente útil, con accuracy de 94,2 %, kappa de 0,840 y F1 de 0,962. Estos resultados respaldan la transferibilidad del enfoque y su posible integración en sistemas de monitoreo como el Digital Twin de la Ciénaga Grande de Santa Marta o el inventario nacional de humedales del IDEAM (proyectos de tesis individuales).
 
 
+## Disponibilidad de código y datos
+
+El código fuente, los notebooks reproducibles, los datos derivados, los modelos entrenados y las figuras generadas en el presente trabajo se distribuyen bajo licencia MIT en el repositorio público https://github.com/linaq11/examen-2-gpboost. El notebook 01 de reproducción de la simulación puede ejecutarse directamente en Google Colab en https://colab.research.google.com/github/linaq11/examen-2-gpboost/blob/main/notebooks/01_reproduccion_simulacion.ipynb, y los notebooks restantes (02 a 06) se abren reemplazando el nombre del archivo al final de la URL. La reproducibilidad de los resultados está garantizada por la fijación de la semilla aleatoria `np.random.seed(1)` y por el versionado exacto de las dependencias en `requirements.txt`.
+
 ## Referencias
 
 Breiman, L. (2001). Random Forests. Machine Learning, 45(1), 5–32.
@@ -252,10 +256,10 @@ Meyer, H., y Pebesma, E. (2021). Predicting into unknown space? Estimating the a
 
 Sigrist, F. (2020). Gaussian Process Boosting [Preprint]. arXiv:2004.02653.
 
-Sigrist, F. (2021). Tree-boosting for spatial data: GPBoost — combining tree-boosting and Gaussian process models. *TDS Archive Medium
+Sigrist, F. (2021). Tree-boosting for spatial data: GPBoost — combining tree-boosting and Gaussian process models. *TDS Archive Medium*. Marzo 2021.
 
 Tobler, W. R. (1970). A computer movie simulating urban growth in the Detroit region. *Economic Geography*, *46*(sup1), 234–240.
 
 Torres, R., Snoeij, P., Geudtner, D., Bibby, D., Davidson, M., Attema, E., Potin, M., Rommen, B., Floury, N., Brown, M., Navas Traver, I., Deghaye, P., Duesmann, B., Rosich, B., Miranda, N., Bruno, C., L'Abbate, M., Croci, R., Pietropaolo, A., Huchler, M., y Rostan, F. (2012). GMES Sentinel-1 mission. *Remote Sensing of Environment*, *120*, 9–24.
 
-Verbesselt, J., Hyndman, R., Newnham, G., y Culvenor, D. (2010). Detecting trend and seasonal changes in satellite image time series. *Remote Sensing of Environment*, *114*(1), 106–115.
+Verbesselt, J., Hyndman, R., Newnham, G., y Culvenor, D. (2010). Detecting trend and seasonal changes in satellite image time series. *Remote Sensing of Environment*, *114*(1), 106–115.dman, R., Newnham, G., y Culvenor, D. (2010). Detecting trend and seasonal changes in satellite image time s
