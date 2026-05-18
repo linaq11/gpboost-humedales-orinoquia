@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Open Notebook 01 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/linaq11/examen-2-gpboost/blob/main/notebooks/01_reproduccion_simulacion.ipynb)
+[![Ver presentación](https://img.shields.io/badge/Ver-Presentación%20HTML-orange)](https://htmlpreview.github.io/?https://github.com/linaq11/examen-2-gpboost/blob/main/reporte/presentacion.html)
 
 
 Reproducción y extensión del ejemplo del artículo *Tree-Boosting for Spatial Data* de Fabio Sigrist (TDS Archive, 2021) y aplicación del algoritmo GPBoost a la clasificación de humedales en la Orinoquía colombiana.
