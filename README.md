@@ -45,7 +45,7 @@ examen-2-gpboost/
 │   ├── 03_covarianzas_alternativas.ipynb      ← Exp / Matérn 1.5 / Matérn 2.5 / Gauss
 │   ├── 04_cv_espacial_vs_aleatoria.ipynb      ← CV aleatoria vs por bloques 2×2
 │   ├── 05_variograma_residuales.ipynb         ← Diagnóstico OOS k=5
-│   └── 06_gpboost_humedales_bita.ipynb        ← Plantilla (espera datos Santiago)
+│   └── 06_gpboost_humedales_bita.ipynb        ← Aplicación binaria + OvR multiclase sobre Bita
 ├── data/
 │   ├── simulado_train_seed1.csv               ← Datos simulados Sigrist 2021
 │   ├── tabla_comparativa_metodos.csv          ← Tabla principal de resultados
