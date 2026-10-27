@@ -1,5 +1,6 @@
 # Reproducción y extensión de GPBoost para la clasificación de humedales en la Orinoquía
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23709983.svg)](https://doi.org/10.5281/zenodo.23709983)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Open Notebook 01 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/linaq11/gpboost-humedales-orinoquia/blob/main/notebooks/01_reproduccion_simulacion.ipynb)
