@@ -12,6 +12,7 @@ authors:
     affiliation: "Universidad Nacional de Colombia"
 type: software
 license: MIT
+doi: "10.5281/zenodo.23709983"
 abstract: >
   Reproducción del ejemplo simulado del artículo "Tree-Boosting for Spatial
   Data" de Sigrist (2021) con la biblioteca GPBoost en Python, y extensión
