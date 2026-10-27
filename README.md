@@ -2,8 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![Open Notebook 01 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/linaq11/examen-2-gpboost/blob/main/notebooks/01_reproduccion_simulacion.ipynb)
-[![Ver presentación](https://img.shields.io/badge/Ver-Presentación%20HTML-orange)](https://htmlpreview.github.io/?https://github.com/linaq11/examen-2-gpboost/blob/main/reporte/presentacion.html)
+[![Open Notebook 01 in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/linaq11/gpboost-humedales-orinoquia/blob/main/notebooks/01_reproduccion_simulacion.ipynb)
+[![Ver presentación](https://img.shields.io/badge/Ver-Presentación%20HTML-orange)](https://htmlpreview.github.io/?https://github.com/linaq11/gpboost-humedales-orinoquia/blob/main/reporte/presentacion.html)
 
 
 Reproducción y extensión del ejemplo del artículo *Tree-Boosting for Spatial Data* de Fabio Sigrist (TDS Archive, 2021) y aplicación del algoritmo GPBoost a la clasificación de humedales en la Orinoquía colombiana.
@@ -38,7 +38,7 @@ El orden cualitativo reproduce el del artículo original: GPBoost supera al rest
 ## Estructura del repositorio
 
 ```
-examen-2-gpboost/
+gpboost-humedales-orinoquia/
 ├── notebooks/
 │   ├── 01_reproduccion_simulacion.ipynb       ← Fase 1 (ejecuta en ~16 s)
 │   ├── 02_normalizacion_y_tuning.ipynb        ← Normalización 0-1 + gap CV/test
@@ -95,8 +95,8 @@ Cada notebook es autocontenido y carga los datos derivados que necesita desde `d
 ```
 Quintero Fonseca, L. M. & Rodríguez Basabe, S. (2026). Reproducción y extensión del
 algoritmo GPBoost para datos espaciales: aplicación a la clasificación de
-humedales en la Orinoquía colombiana. Examen 2, curso de Percepción Remota,
-Maestría en Geomática, Universidad Nacional de Colombia.
+humedales en la Orinoquía colombiana. Maestría en Geomática, Universidad
+Nacional de Colombia.
 ```
 
 ## Licencias y atribuciones
