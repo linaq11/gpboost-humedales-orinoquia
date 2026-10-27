@@ -1,4 +1,4 @@
-# Examen 2 — Reproducción y extensión de GPBoost
+# Reproducción y extensión de GPBoost para la clasificación de humedales en la Orinoquía
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -8,9 +8,9 @@
 
 Reproducción y extensión del ejemplo del artículo *Tree-Boosting for Spatial Data* de Fabio Sigrist (TDS Archive, 2021) y aplicación del algoritmo GPBoost a la clasificación de humedales en la Orinoquía colombiana.
 
-**Curso:** Percepción Remota, Maestría en Geomática, Universidad Nacional de Colombia
+**Contexto:** Maestría en Geomática, Universidad Nacional de Colombia
 **Autores:** Lina María Quintero Fonseca, Santiago Rodríguez Basabe
-**Fecha de entrega:** 20 de mayo de 2026
+**Fecha:** mayo de 2026
 
 ---
 
